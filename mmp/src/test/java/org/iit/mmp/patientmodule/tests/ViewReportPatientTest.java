@@ -15,7 +15,6 @@ public class ViewReportPatientTest extends TestBase implements IHookable {
 	@Test(description="US_007 Creation of Report",groups={"US_007","regression","sanity","patientmodule"})
 	public void patientView() throws Exception {
 		
-		instantiateDriver();
      	helperObj = new HelperClass(driver);
      	URL = pro.getProperty("URL");
      	patientUserName = pro.getProperty("patientUser2");

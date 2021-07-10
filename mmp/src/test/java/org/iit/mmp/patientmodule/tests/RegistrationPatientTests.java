@@ -19,7 +19,7 @@ public class RegistrationPatientTests extends TestBase implements IHookable{
 	@Test(description="US_001 Registration of the Page",groups={"US_001","regression","sanity","patientmodule"})
 	public void validateRegistration() throws Exception
 	{  
-		instantiateDriver();
+	 
 		helperObj = new HelperClass(driver);
 		URL = pro.getProperty("URL");
 		helperObj.launchApplicationURL(URL);

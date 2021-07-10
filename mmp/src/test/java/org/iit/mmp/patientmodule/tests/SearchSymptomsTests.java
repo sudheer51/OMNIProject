@@ -29,7 +29,7 @@ public class SearchSymptomsTests extends TestBase implements IHookable{
 	@Test(description="US_010 Search Symptoms",groups={"PAT010","regression","sanity","patientmodule"})
 	public void LoginTest() throws Exception {
 		
-		instantiateDriver();
+ 
 		helperObj=new HelperClass(driver);
 		helperObj.launchApplicationURL(pro.getProperty("URL"));
 		helperObj.login(pro.getProperty("patientUser"), pro.getProperty("patientPassword"));

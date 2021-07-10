@@ -35,7 +35,7 @@ public class SendMessagesTests extends TestBase implements IHookable{
 			groups={"US_009","regression","sanity","patientmodule"})
 	public void sendMessage(String uName, String password) throws Exception{
 		
-		instantiateDriver();
+	 
 		helperObj = new HelperClass(driver);
 		URL = pro.getProperty("URL");
 		urlAdmin = pro.getProperty("urlAdmin");

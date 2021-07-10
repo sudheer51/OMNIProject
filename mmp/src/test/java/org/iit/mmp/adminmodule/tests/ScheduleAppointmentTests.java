@@ -22,7 +22,7 @@ public class ScheduleAppointmentTests extends TestBase{
 	@Test(dataProvider = "testData", description="US_004 Schedule Appointment",groups={"US_004","regression","sanity","patientmodule"})
 	public void validateAppointmentDetails(String uName, String password) throws Exception, IOException {
 		
-		instantiateDriver();
+		 
 		helperObj=new HelperClass(driver);
 		helperObj.launchApplicationURL("http://96.84.175.78/MMP-Release2-Admin-Build.2.1.000/login.php");
 		helperObj.captureScreenshot("US_001_LaunchApplication");

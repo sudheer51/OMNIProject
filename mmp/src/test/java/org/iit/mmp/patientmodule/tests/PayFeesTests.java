@@ -41,7 +41,7 @@ public class PayFeesTests extends TestBase implements IHookable{
 	public void validatePayFeesTests() throws Exception
 	{
 		//login to admin portal
-		instantiateDriver();
+ 
 		helperObj=new HelperClass(driver);
 		SAP = new ScheduleAppointmentPage(driver);
 		sa = new SoftAssert();

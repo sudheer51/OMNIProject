@@ -20,7 +20,7 @@ public class CreateReportAdminTest extends TestBase implements IHookable{
 	@Test(description="US_007 Creation of Report",groups={"US_007","regression","sanity","adminmodule"})
 	public void createReport() throws Exception   {
 		
-		instantiateDriver();
+	 
 		adminUser = pro.getProperty("adminUser");
 		adminPassword = pro.getProperty("adminPassword");
 		urlAdmin = pro.getProperty("urlAdmin");

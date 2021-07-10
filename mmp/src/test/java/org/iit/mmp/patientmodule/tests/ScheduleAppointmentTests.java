@@ -26,7 +26,7 @@ public class ScheduleAppointmentTests  extends TestBase implements IHookable{
 	@Test(dataProvider = "testData", description="US_004 Schedule Appointment",groups={"US_004","regression","sanity","patientmodule"})
 	public void validateAppointmentDetails(String uName, String password) throws Exception, IOException {
 		
-		instantiateDriver();
+	 
 		helperObj = new HelperClass(driver);
 		URL = pro.getProperty("URL");
 		helperObj.launchApplicationURL(URL);

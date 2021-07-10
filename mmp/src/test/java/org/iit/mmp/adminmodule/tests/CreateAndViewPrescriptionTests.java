@@ -23,7 +23,7 @@ public class CreateAndViewPrescriptionTests extends TestBase {
 	@Test(description="US_005 Create and View the Prescription",groups={"US_005","regression","sanity","adminmodule"})
 	public void validatePrescription() throws Exception   {
 		
-		instantiateDriver();
+ 
 		adminUser = pro.getProperty("adminUser");
 		adminPassword = pro.getProperty("adminPassword");
 		patientUser=			pro.getProperty("patientUser");

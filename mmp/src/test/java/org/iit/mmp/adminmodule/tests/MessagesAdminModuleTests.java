@@ -27,7 +27,7 @@ public class MessagesAdminModuleTests extends TestBase{
 
 	public void MessagesTest() throws Exception {
 
-		instantiateDriver();
+ 
 		helperObj = new HelperClass(driver);
 		helperObj.launchApplicationURL(URL);
 		helperObj.AdminLogin("shak", "9ol.<KI*");

@@ -12,6 +12,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.IHookCallBack;
 import org.testng.ITestResult;
+import org.testng.annotations.BeforeClass;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import io.qameta.allure.Attachment;
@@ -21,7 +22,7 @@ public class TestBase {
 	protected  WebDriver driver;
 	protected  Properties pro;
 	
-		
+	@BeforeClass
 	public void instantiateDriver() throws Exception{
 
 		System.out.println("First line of the instantiate method");

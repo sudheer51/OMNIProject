@@ -25,7 +25,7 @@ public class ViewInformationTests extends TestBase implements IHookable{
 	@Test(dataProvider = "testData", description="US_005 View the information",groups={"US_005","regression","sanity","patientmodule"})
 	public void validateInformationMsg(String uName, String password) throws Exception
 	{
-		instantiateDriver();
+		 
 		helperObj = new HelperClass(driver);
 		URL = pro.getProperty("URL");
 		helperObj.launchApplicationURL(URL);

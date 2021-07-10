@@ -26,7 +26,7 @@ public class LoginPatientTests extends TestBase implements IHookable{
 	@Test (dataProvider = "testData", description="US_001 Login to the app as a Patient",groups={"US_001","regression","sanity","patientmodule"})
 	public void Login(String uName, String password) throws Exception{
 		
-		instantiateDriver();
+ 
 		helperObj = new HelperClass(driver);
 		URL = pro.getProperty("NAMTGURL");
 		helperObj.launchApplicationURL(URL);

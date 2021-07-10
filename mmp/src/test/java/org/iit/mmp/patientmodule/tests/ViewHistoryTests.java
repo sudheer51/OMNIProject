@@ -26,7 +26,7 @@ public class ViewHistoryTests extends TestBase implements IHookable{
 	@Test(dataProvider = "testData", description="US_008 View History",groups={"US_008","regression","sanity","patientmodule"})
 	public void viewHistory(String uName, String password) throws Exception 
 	{
-		instantiateDriver();
+	 
 		helperObj = new HelperClass(driver);
 		helperObj.launchApplicationURL(URL);
 		helperObj.login(uName, password);

@@ -22,7 +22,7 @@ public class ViewReportsEndToEndTest extends TestBase implements IHookable{
 		String reptDesc = "This is XRAY of Stomach ulcer";
 		String uploadFilepath = System.getProperty("user.dir")+ "\\Data\\lung-article-703x441.jpg" ;
 
-		instantiateDriver();
+		
 		helperObj = new HelperClass(driver);
 		helperObj.launchApplicationURL(pro.getProperty("urlAdmin"));
 		helperObj.adminLogin(pro.getProperty("adminUser"),pro.getProperty("adminPassword"));

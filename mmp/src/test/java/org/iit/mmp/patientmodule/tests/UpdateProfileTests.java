@@ -26,7 +26,7 @@ public class UpdateProfileTests extends TestBase implements IHookable{
 	public void UpdatePatientPofile(String uName, String password) throws Exception {
 
 		
-		instantiateDriver();
+		 
 		helperObj = new HelperClass(driver);
 		URL = pro.getProperty("URL");
 		helperObj.launchApplicationURL(URL);
